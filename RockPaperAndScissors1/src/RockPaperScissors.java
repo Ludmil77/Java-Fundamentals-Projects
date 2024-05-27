@@ -51,8 +51,7 @@ public class RockPaperScissors
         }
         else
         {
-            System.out.println("Invalid Input. Try Again...");
-            return;
+            computerMove = "Zero";
         }
 
         System.out.printf("The computer chose %s.%n", computerMove);
