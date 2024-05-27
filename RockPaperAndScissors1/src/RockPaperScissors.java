@@ -49,10 +49,7 @@ public class RockPaperScissors
         {
             computerMove = Scissors;
         }
-        else
-        {
-            computerMove = "Zero";
-        }
+      
 
         System.out.printf("The computer chose %s.%n", computerMove);
 
